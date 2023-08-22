@@ -1,6 +1,6 @@
 [package]
-name = "vmod_rers"
-version = "0.0.7"
+name = "vmod_brown"
+version = "0.0.1"
 edition = "2021"
 
 [build-dependencies]
@@ -9,8 +9,6 @@ varnish = "0.0.16"
 [dependencies]
 varnish = "0.0.16"
 varnish-sys = "0.0.16"
-regex = "1.5"
-lru = "0.7.1"
 
 [lib]
 crate-type = ["cdylib"]
